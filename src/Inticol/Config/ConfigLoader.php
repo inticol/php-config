@@ -1,6 +1,6 @@
 <?php
 
-namespace Tools;
+namespace Inticol\Config;
 
 class ConfigLoader
 {
@@ -38,7 +38,7 @@ class ConfigLoader
                 (substr_compare($value, $testStr, strlen($value)-strlen($testStr), strlen($testStr)) === 0)
             ) {
                 $envName = substr($value, 2, strlen($value) - 4);
-                $value = !empty(getenv($envName)) ? trim(getenv($envName),'"') : '';
+                $value = !empty(getenv($envName)) ? trim(getenv($envName), '"') : '';
             }
         });
         return $config;
