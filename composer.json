@@ -1,0 +1,35 @@
+{
+  "name": "inticol/php-config",
+  "description": "A PHP configuration loaded",
+  "keywords": [
+    "php",
+    "config",
+    "loader"
+  ],
+  "homepage": "https://github.com/inticol/php-config",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jhon H. Caicedo",
+      "email": "jhcaiced@inticol.com",
+      "homepage": "http://blog.inticol.com/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Inticol\\Config\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Inticol\\Config\\": "tests"
+    }
+  }
+}
