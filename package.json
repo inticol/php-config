@@ -1,6 +1,7 @@
 {
   "name": "php-config",
   "version": "0.0.1",
+  "license": "MIT",
   "scripts": {
     "precommit": "lint-staged"
   },
