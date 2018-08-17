@@ -4,7 +4,7 @@
 
 all : build php test
 
-build : composer node
+build : composer
 
 composer : .FORCE
 	composer install
