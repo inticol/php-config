@@ -1,6 +1,6 @@
 {
   "name": "inticol/php-config",
-  "description": "A PHP configuration loaded",
+  "description": "A PHP configuration loader compatible with nodejs/config files",
   "keywords": [
     "php",
     "config",
