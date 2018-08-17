@@ -1,0 +1,6 @@
+{
+  "paths": {
+    "base": "TEST_PATHS_BASE",
+    "tmp": "TEST_PATHS_TMP"
+  }
+}

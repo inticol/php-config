@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "test": "./vendor/bin/phpunit tests",
+    "test": "./vendor/bin/phpunit",
     "lint": "./vendor/bin/phpcs src tests",
     "precommit": "lint-staged"
   },

@@ -17,7 +17,7 @@
     }
   ],
   "require": {
-    "php": ">=5.3"
+    "php": ">=5.5"
   },
   "require-dev": {
     "phpunit/phpunit": "4.*",
@@ -31,7 +31,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Inticol\\Config\\Test": "tests"
+      "Inticol\\Config\\UnitTest\\": "tests"
     }
   }
 }
