@@ -28,7 +28,7 @@ lint-php : .FORCE
 	find src tests -name "*.php" -exec php -l {} > /dev/null \;
 
 phpstan: .FORCE
-	docker run --rm -v `pwd`:/app phpstan/phpstan analyse --level 7 /app/src /app/tests
+	./vendor/bin/phpstan analyse --level 7 src tests *.php
 
 test : .FORCE
 	./vendor/bin/phpunit
